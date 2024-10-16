@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('/assets/font/segoe-ui-4.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --sofiaPro: "montserrat", sans-serif;
+    --roboto: 'Segoe UI', sans-serif;
+    --bg-color1: #0D1B3E;
+    --bg-color2: #FAFAFB;
+    --font-color1: #10375C;
+    --btn-color1: #C7273D;
+    --black: #000000;
+    --white: #fff;
+    --title1-fs: 45px;
+    --title2-fs: 32px;
+    --title-fw: 600;
+
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--sofiaPro);
+    line-height: 180%;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+button {
+    outline: none;
+}
+
+ul, li, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
