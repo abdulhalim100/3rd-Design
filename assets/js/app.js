@@ -1,11 +1,11 @@
     var swiper = new Swiper(".heroSlider", {
       
-      loop:true,
-      autoplay:true,
+      /*loop:true,
+      autoplay:true,*/
         cssMode: true,
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".hero-swiper-button-next",
+          prevEl: ".hero-swiper-button-prev",
         },
         pagination: {
           el: ".swiper-pagination",
@@ -13,6 +13,33 @@
         mousewheel: true,
         keyboard: true,
       });
+
+
+      
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+  
+
+
+
+
+
     var swiper = new Swiper(".carSlider", {
     
       loop:true,
@@ -49,3 +76,21 @@
       },
         
     });*/
+
+
+
+    var swiper = new Swiper(".xcarSlider", {
+    
+      loop:true,
+      autoplay:true,
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
