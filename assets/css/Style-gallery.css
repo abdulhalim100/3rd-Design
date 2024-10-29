@@ -1,0 +1,44 @@
+/*=======================Gallery Hero Section Start====================*/
+.gallery-hero-bg {
+    background: #FDF0E2;
+    background-image: url(../img/Allimg/15.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+p.gallery-para {
+    font-size: 18px;
+    color: var(--bg-color1);
+    font-weight: 500;
+}
+
+p.gallery-para span {
+    color: var(--btn-color1);
+    font-weight: 700;
+}
+
+h1.gallery-title {
+    color: var(--bg-color1);
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: var(--title1-fs);
+}
+
+.gallery-hero-section {
+    padding: 110px 0px 200px 180px;
+}
+
+/*=======================Gallery Hero Section Close====================*/
+/*=======================Gallery Section Start====================*/
+
+.car-gallery {
+    padding-top: 106px;
+}
+
+.car-img {
+    margin-top: 24px;
+}
+
+/*=======================Gallery Section Close====================*/

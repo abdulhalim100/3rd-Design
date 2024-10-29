@@ -1,13 +1,42 @@
-@media screen and (max-width:1400px) {}
+@media screen and (max-width:1400px) {
+    h1.hero-title {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .hero-swiper-button-next {
+        left: 80%;
+    }
+
+}
 
 /* Scree Size 1200 Section Close============================================================================================================ */
 
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1200px) {
+    ul.nav-wrapper.nav {
+        display: none;
+    }
+
+}
 
 
 /* Scree Size 992 Section Close============================================================================================================ */
 
-@media screen and (max-width:992px) {}
+@media screen and (max-width:992px) {
+    .hero-section {
+        padding: 50px 0px;
+    }
+
+    .hero-content {
+        margin-bottom: 50px;
+    }
+
+    .logo {
+        padding: 0px 25px;
+        width: 30%;
+    }
+
+}
 
 /* Scree Size 768 Section Close============================================================================================================ */
 

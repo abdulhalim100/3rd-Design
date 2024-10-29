@@ -4,13 +4,15 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    overflow: visible;
 }
 
+.heroSlider {
+    overflow: visible;
+
+}
 
 .mySwiper2 {
-    height: 80%;
-    width: 100%;
+    border-radius: 30px;
 }
 
 .mySwiper {
@@ -29,9 +31,6 @@
     opacity: 1;
 }
 
-.hero-swiper-button-next, .hero-swiper-button-prev {
-    z-index: 100;
-}
 
 .swiper {
     width: 100%;
@@ -62,20 +61,21 @@ span.swiper-pagination-bullet {
 }
 
 .hero-swiper-button-prev {
-    left: 77%;
+    left: 90%;
+}
+
+.hero-swiper-button-next {
+    left: 82%;
 }
 
 .hero-swiper-button-prev,
 .hero-swiper-button-next {
     position: absolute;
-    top: 96%;
+    top: 105%;
     background: var(--white);
-    padding: 15px 20px;
+    padding: 8px 15px;
     border-radius: 100px;
-}
-
-.hero-swiper-pagination {
-    margin-bottom: 70px;
+    /* margin-left: 47%; */
 }
 
 /*============================Swiper Section Close=============================================*/
@@ -91,7 +91,6 @@ span.swiper-pagination-bullet {
 
 }
 
-
 .nav-container {
     max-width: 1620px;
     margin: auto;
@@ -99,18 +98,15 @@ span.swiper-pagination-bullet {
 }
 
 .navi-wrapper {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    padding: 0px 59px;
 }
 
 .nav-wrapper {
     justify-content: flex-end;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     padding: 0;
 }
 
@@ -120,14 +116,13 @@ span.swiper-pagination-bullet {
 
 a.nav-link {
     color: #193E6C;
-    font-size: 20px;
 }
 
 .nav-btn {
     color: #0D1B3E;
     border-radius: 31px;
-    padding: 8px 22px;
-    font-size: 20px;
+    padding: 6px 22px;
+    font-size: 15px;
     font-weight: 500;
     border: 1px solid #0D1B3E;
     background: none;
@@ -149,8 +144,39 @@ h1.hero-title {
     margin-bottom: 30px;
 }
 
-.swiper-pagination {
-    top: 100%;
+.hero-container {
+    max-width: 1320px;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.swiper-pagination.hero-swiper-pagination {
+    top: 105%;
+}
+
+.hero-img-slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img.Slide-fixed {
+    border-radius: 30px;
+}
+
+.hero-img img {
+    border-radius: 30px;
+}
+
+.no-slide {
+    position: absolute;
+    bottom: -1px;
+    z-index: 1;
+    width: 100%;
 }
 
 h1.hero-title span {
@@ -194,6 +220,7 @@ p.hero-para {
     border-radius: 100% 0 0 0;
     z-index: 0;
 }
+
 */
 .hero-section {
     position: relative;
@@ -208,6 +235,10 @@ p.hero-para {
     padding: 110px 0px;
 }
 
+.de-card {
+    margin-top: 30px;
+}
+
 .decission-card {
     background: var(--white);
     display: flex;
@@ -217,6 +248,7 @@ p.hero-para {
     border: 1px solid #DECFC0;
     padding: 27px 34px 23px 47px;
     border-radius: 10px;
+    height: 100%;
 }
 
 .decission-card img {
@@ -229,11 +261,8 @@ p.hero-para {
 }
 
 .decission-wrapper {
-    display: grid;
-    grid-template-columns: 3fr 2fr 2fr 2fr;
+    justify-content: center;
     align-items: flex-start;
-    justify-content: space-between;
-    gap: 25px;
 }
 
 /*============================Decission Section Close=============================================*/
@@ -398,6 +427,11 @@ p.hero-para {
 
 }
 
+.work-contuc-call {
+    justify-content: center;
+    align-items: center;
+}
+
 .work {
     position: relative;
     background: #FAFAFB;
@@ -482,8 +516,7 @@ p.hero-para {
     border-radius: 20px;
     margin-top: 50px;
     padding: 30px 0px;
-    display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -494,9 +527,9 @@ p.hero-para {
 }
 
 .work-contuct-call {
-    display: flex;
     justify-content: flex-start;
     align-items: center;
+    display: flex;
     gap: 20px;
 }
 
@@ -608,7 +641,7 @@ p.hero-para {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 90px;
+    padding: 90px 0px;
 }
 
 .subscribe {
@@ -654,8 +687,6 @@ p.hero-para {
 }
 
 .subscribe-wrapper {
-    display: grid;
-    grid-template-columns: 3fr 4fr;
     justify-content: space-between;
     align-items: center;
 }
@@ -700,7 +731,6 @@ p.hero-para {
 }
 
 .footer-last {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 50px;
