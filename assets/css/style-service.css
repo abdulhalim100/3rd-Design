@@ -1,0 +1,119 @@
+.car-service-wrapper {
+    margin-top: 130px;
+}
+
+.left-side {
+    border: 1px solid #DECFC0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+p.left-side-para {
+    padding: 15px 0px;
+    font-size: 18px;
+    color: var(--font-color1);
+}
+
+.car-service-para,
+p.carservice-para {
+    font-size: 16px;
+    padding: 10px 0px;
+    color: var(--font-color1);
+
+}
+
+
+h1.carservice-title {
+    color: var(--font-color1);
+    font-size: var(--title1-fs);
+}
+
+img.carservice-img {
+    margin: 10px 0px;
+}
+
+.car-service-para span {
+
+    font-weight: 700;
+    color: var(--btn-color1);
+
+}
+
+p.carservice-para span {
+    font-weight: 600;
+}
+
+h4.carphoto-title {
+    font-weight: 700;
+    margin: 30px 0px 6px 0px;
+    color: var(--font-color1);
+
+}
+
+.car-give {
+    display: flex;
+    border: 1px solid #DECFC0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.give-para {
+    color: var(--font-color1);
+}
+
+p.give-para span {
+    font-weight: 700;
+    color: var(--btn-color1);
+
+}
+
+h6.fromhead {
+    color: var(--btn-color1);
+    font-weight: 600;
+}
+
+p.from-para {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--font-color1);
+    margin: 30px 0px;
+}
+
+label.from-lavel {
+    font-weight: 700;
+    color: var(--font-color1);
+}
+
+.from-input {
+    font-size: 16px;
+    padding: 16px 20px 16px 24px;
+    border-radius: 10px;
+    color: var(--bg-color1);
+    border: 1px solid #DECFC0;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+button.submit-bt {
+    background: var(--bg-color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    padding: 16px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.quate-btn {
+    margin-bottom: 30px;
+}
