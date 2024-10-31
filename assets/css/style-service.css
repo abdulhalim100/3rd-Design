@@ -117,3 +117,40 @@ button.submit-bt {
 .quate-btn {
     margin-bottom: 30px;
 }
+
+.upload-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #DECFC0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+.upload-container p {
+    color: var(--bg-color1);
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.browse-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--bg-color1);
+    font-size: 16px;
+    border: 1px solid #DECFC0;
+    border-radius: 52px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.file-input {
+    display: none;
+}
+
+.browse-button:hover {
+    background-color: #DECFC0;
+}

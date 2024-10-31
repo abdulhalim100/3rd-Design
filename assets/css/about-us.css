@@ -1,0 +1,18 @@
+.about-us {
+    margin: 130px 0px;
+}
+
+.about-img {
+    margin-bottom: 20px;
+}
+
+.about-title h2 {
+    color: var(--font-color1);
+    font-weight: 600;
+    font-size: var(--title1-fs);
+}
+
+.about-para p {
+    margin-top: 20px;
+    color: var(--font-color1);
+}
