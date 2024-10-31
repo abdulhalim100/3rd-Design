@@ -1,5 +1,5 @@
 .about-us {
-    margin: 130px 0px;
+    margin-top: 130px;
 }
 
 .about-img {
@@ -15,4 +15,82 @@
 .about-para p {
     margin-top: 20px;
     color: var(--font-color1);
+}
+
+.about-img-wrapper {
+    display: grid;
+    grid-template-columns: 15fr 17fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-img-top {
+    margin-bottom: 20px;
+}
+
+.section-wrapper {
+    margin-top: 130px;
+}
+
+.for-us-wrapper {
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.for-us-inner::after {
+    content: "";
+    position: absolute;
+    background: var(--btn-color1);
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+h3.for-us-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--btn-color1);
+    margin-bottom: 30px;
+}
+
+p.for-us-para {
+    color: var(--font-color1);
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.for-us-inner {
+    padding: 0px 175px 0px 40px;
+}
+
+.for-us {
+    background: #FAFAFB;
+    padding: 120px 0px;
+}
+
+h4.modify-title {
+    margin: 0;
+    font-size: 36px;
+}
+
+.modify-inner-bottom {
+    margin-top: 100px;
+}
+
+.modify {
+    position: relative;
+}
+
+.modify-wrapper::after {
+    content: "";
+    position: absolute;
+    background: var(--btn-color1);
+    width: 100px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 20px 0px 0px 20px;
 }
