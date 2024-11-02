@@ -427,9 +427,6 @@ p.hero-para {
 
 }
 
-.quate-btn {
-    margin-bottom: 30px;
-}
 
 .work-contuc-call {
     justify-content: center;
@@ -528,7 +525,6 @@ p.hero-para {
     color: var(--white);
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 30px;
 }
 
 .work-contuct-call {
