@@ -13,6 +13,7 @@ p.left-side-para {
     padding: 15px 0px;
     font-size: 18px;
     color: var(--font-color1);
+    position: relative;
 }
 
 .car-service-para,
@@ -23,6 +24,31 @@ p.carservice-para {
 
 }
 
+p.left-side-para span {
+    color: var(--btn-color1);
+}
+
+p.left-side-para span::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    border-radius: 20px;
+    height: 50%;
+    bottom: 25%;
+    background: var(--btn-color1);
+    left: -30px;
+}
+
+p.left-side-para span::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    border-radius: 20px;
+    height: 50%;
+    bottom: 25%;
+    background: var(--btn-color1);
+    right: -30px;
+}
 
 h1.carservice-title {
     color: var(--font-color1);
