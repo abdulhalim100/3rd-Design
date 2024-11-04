@@ -53,6 +53,7 @@ p.left-side-para span::before {
 h1.carservice-title {
     color: var(--font-color1);
     font-size: var(--title1-fs);
+    font-weight: 600;
 }
 
 img.carservice-img {

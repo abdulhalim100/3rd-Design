@@ -8,6 +8,12 @@
     padding-top: 40px;
 }
 
+p.gallery-para a {
+    font-size: 18px;
+    color: var(--bg-color1);
+    font-weight: 500;
+}
+
 p.gallery-para {
     font-size: 18px;
     color: var(--bg-color1);
