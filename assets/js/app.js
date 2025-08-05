@@ -1,7 +1,13 @@
 var swiper = new Swiper(".heroSlider", {
-  // loop: true,
-  // autoplay: true,
-  cssMode: true,
+  loop: true,
+  spaceBetween: 30,
+  slidesPerView: 1,
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: false,
+  },
+  speed: 1000,
+  effect: "slide",
   navigation: {
     nextEl: ".hero-swiper-button-next",
     prevEl: ".hero-swiper-button-prev",

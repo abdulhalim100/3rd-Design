@@ -2,40 +2,18 @@
 
 .swiper {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.heroSlider {
-  overflow: visible;
-}
-
-.mySwiper2 {
-  border-radius: 30px;
-}
-
-.mySwiper {
-  height: 20%;
-  box-sizing: border-box;
-  padding: 10px 0;
-}
-
-.mySwiper .swiper-slide {
-  width: 25%;
-  height: 100%;
-  opacity: 0.4;
-}
-
-.mySwiper .swiper-slide-thumb-active {
-  opacity: 1;
-}
-
-.swiper {
-  width: 100%;
   height: 100%;
 }
-
+.pagination-btn {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: right;
+  align-items: center;
+  gap: 35px;
+  padding-right: 40px;
+}
 .swiper-slide {
+  overflow: hidden;
   text-align: center;
   font-size: 18px;
   display: flex;
@@ -44,36 +22,58 @@
 }
 
 .swiper-slide img {
-  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  display: block;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.swiper-pagination {
+  bottom: -29px !important;
+  /* margin-top: 40px; */
+  position: static;
+  display: inline-flex;
+}
 span.swiper-pagination-bullet {
-  padding: 8px;
+  background: aqua;
+  width: 25px;
+  height: 25px;
+  margin-left: 0 !important;
 }
-
-.hero-swiper-pagination {
-  text-align: left;
+.hero-pagination {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
 }
-
+span.swiper-pagination-bullet-active {
+  background: blueviolet;
+}
+.hero-swiper-button-next,
 .hero-swiper-button-prev {
-  left: 90%;
-}
-
-.hero-swiper-button-next {
-  left: 82%;
-}
-
-.hero-swiper-button-prev,
-.hero-swiper-button-next {
-  position: absolute;
-  top: 105%;
-  background: var(--white);
-  padding: 8px 15px;
+  padding: 13px 15px;
   border-radius: 100px;
-  /* margin-left: 47%; */
+  background: #fff;
+  color: #000;
+  font-size: 30px;
+  width: 17%;
+}
+.hero-swiper-button-prev {
+  /* margin-left: 81% !important; */
+}
+.hero.swiper-button-next:after {
+  display: none;
+}
+.swiper-button-prev:after {
+  display: none;
+}
+.hero-swiper-pagination {
+  left: -30% !important;
+  top: 105% !important;
 }
 
 /*============================Swiper Section Close=============================================*/
@@ -151,10 +151,6 @@ h1.hero-title {
   height: 442px;
 }
 
-.swiper-pagination.hero-swiper-pagination {
-  top: 105%;
-}
-
 .hero-img-slider {
   position: relative;
   display: flex;
@@ -162,10 +158,6 @@ h1.hero-title {
   align-items: center;
   border-radius: 30px;
   overflow: hidden;
-}
-
-img.Slide-fixed {
-  border-radius: 30px;
 }
 
 .hero-img img {
