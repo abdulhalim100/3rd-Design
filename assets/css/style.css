@@ -33,15 +33,17 @@
 
 .swiper-pagination {
   bottom: -29px !important;
-  /* margin-top: 40px; */
   position: static;
   display: inline-flex;
 }
 span.swiper-pagination-bullet {
-  background: aqua;
+  background: #000000ff;
   width: 25px;
   height: 25px;
   margin-left: 0 !important;
+  opacity: 0.3;
+  transform: scale(0.6);
+  transition: all 0.9s ease;
 }
 .hero-pagination {
   display: grid;
@@ -51,7 +53,9 @@ span.swiper-pagination-bullet {
   margin-top: 30px;
 }
 span.swiper-pagination-bullet-active {
-  background: blueviolet;
+  background: #068b2eff;
+  opacity: 1;
+  transform: scale(0.8);
 }
 .hero-swiper-button-next,
 .hero-swiper-button-prev {
@@ -62,20 +66,27 @@ span.swiper-pagination-bullet-active {
   font-size: 30px;
   width: 17%;
 }
-.hero-swiper-button-prev {
-  /* margin-left: 81% !important; */
-}
-.hero.swiper-button-next:after {
+.hero-swiper-button-next:after {
   display: none;
 }
-.swiper-button-prev:after {
+.hero-swiper-button-prev:after {
   display: none;
 }
 .hero-swiper-pagination {
   left: -30% !important;
   top: 105% !important;
 }
-
+.hero-img-slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.hero-img img {
+  border-radius: 30px;
+}
 /*============================Swiper Section Close=============================================*/
 /*============================Navigation Section Start=============================================*/
 
@@ -149,26 +160,6 @@ h1.hero-title {
 .hero-img {
   width: 100%;
   height: 442px;
-}
-
-.hero-img-slider {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  overflow: hidden;
-}
-
-.hero-img img {
-  border-radius: 30px;
-}
-
-.no-slide {
-  position: absolute;
-  bottom: -1px;
-  z-index: 1;
-  width: 100%;
 }
 
 h1.hero-title span {
@@ -273,7 +264,9 @@ p.hero-para {
   margin-top: 10px;
   gap: 10px;
 }
-
+.brand-content {
+  padding-left: 30px;
+}
 .decission-card h3,
 .section-title h2 {
   font-size: var(--title2-fs);
@@ -284,6 +277,7 @@ p.hero-para {
 .brand-para p {
   color: var(--font-color1);
   margin-top: 20px;
+  text-align: justify;
 }
 
 .brand-para span {
@@ -291,28 +285,63 @@ p.hero-para {
 }
 
 .car-swiper-button-prev {
-  right: 8%;
+  right: 94%;
 }
 
 .car-swiper-button-next {
-  right: 1%;
+  right: -3%;
 }
 
 .car-swiper-button-prev,
 .car-swiper-button-next {
   border: 5px solid #fff;
-  padding: 30px;
+  padding: 15px 16px;
   border-radius: 100%;
   background: var(--bg-color1);
-  overflow: visible;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
 }
+
+.myCustomSwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.8;
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.myCustomSwiper .swiper-slide-thumb-active {
+  opacity: 1;
+  transform: scale(1);
+}
+.car-swiper-button-prev {
+}
+
+.car-swiper-button-next {
+}
+.car-pa {
+  position: absolute;
+  bottom: 57%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  left: 0;
+  right: 0;
+}
+.first-slider {
+  position: relative;
+}
+/*============================Brand Section Close=============================================*/
+/*============================Car Studio Section Start=============================================*/
 
 .car-studio {
   background: var(--bg-color2);
   padding: 130px 0px;
 }
-
-/*============================Brand Section Close=============================================*/
+/*============================Car Studio Section Close=============================================*/
 /*============================Choise Section Start=============================================*/
 
 .chose-bg {
@@ -753,3 +782,23 @@ p.hero-para {
 }
 
 /*============================Footer Section Close=============================================*/
+/* .swiper {
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
